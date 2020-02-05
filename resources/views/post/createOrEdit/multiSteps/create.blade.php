@@ -84,7 +84,7 @@
 											</div>
 										</div>
 
-										<!-- title -->
+										<!-- title of the post being made-->
 										<?php $titleError = (isset($errors) and $errors->has('title')) ? ' is-invalid' : ''; ?>
 										<div class="form-group row required">
 											<label class="col-md-3 col-form-label" for="title">{{ t('Title') }} <sup>*</sup></label>
